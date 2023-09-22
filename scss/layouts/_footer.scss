@@ -1,0 +1,39 @@
+.footer {
+    padding: 2rem 0;
+    background: #af5cd8;
+
+    /* .footer__link */
+
+    &__link {
+        display: block;
+        width: 50%;
+        flex: 0 0 1.5rem;
+    }
+
+    &__logo {
+        width: 10rem;
+    }
+
+    .copy-right {
+        width: 50%;
+        font-size: 1.5rem;
+        flex: 0 0 28rem;
+        color: #000;
+    }
+
+    .developer {
+        padding: 0 0 0 2rem;
+        font-family: 'Pacifico', cursive;
+        font-size: 1.8rem;
+        color: #000;
+        transition: all 1s linear;
+
+        &:hover {
+            color: #5CC3D8;
+        }
+
+        &:visited {
+            color: #fff;
+        }
+    }
+}

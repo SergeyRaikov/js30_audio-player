@@ -1,3 +1,5 @@
-body {
-    color:red;
-}
+@import "./base";
+@import "./reset";
+// Layouts
+@import "./layouts/footer";
+@import "./layouts/two-column";

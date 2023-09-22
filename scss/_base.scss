@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    overflow: hidden;
+    
+}
+
+.header {
+    flex: 0 0 auto; 
+}
+
+.main {
+flex: 1 0 auto;
+}
+
+.footer {
+    flex: 0 0 auto;
+}
