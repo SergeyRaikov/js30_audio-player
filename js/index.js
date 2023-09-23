@@ -69,7 +69,7 @@ const playOrPausePlayListItems = () => {
       playItemNode.forEach((elem) => {
         elem.classList.remove('paused-item');
         playBtnNode.style.backgroundImage =
-          'url(../assets/img/controls/pause.svg)';
+          'url(./assets/img/controls/pause.svg)';
       });
       playItemNode[selectedTrackIndex].classList.add('paused-item');
       songTitleNode.textContent = `${selectedTrackIndex + 1}.   ${
