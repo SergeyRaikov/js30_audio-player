@@ -8,7 +8,7 @@ const songTitleNode = document.querySelector('.song-title');
 const playerNode = document.querySelector('.player');
 const prevBtnNode = document.querySelector('.play-prev');
 const playBtnNode = document.querySelector('.play');
-const itemPlayBtnNode = document.querySelector('.play-item::after');
+const itemPlayBtnNode = document.querySelector('.play-item');
 const pauseBtnNode = document.querySelector('.pause');
 
 const nextBtnNode = document.querySelector('.play-next');
@@ -94,7 +94,7 @@ const selectPlayListItems = () => {
     }
   });
 };
-const pauseTrack = () => {
+pauseTrack = () => {
   playerNode.classList.remove('js-play');
   playerBackGround.classList.remove('scaled');
   audioNode.pause();
