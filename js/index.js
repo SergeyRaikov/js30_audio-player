@@ -48,7 +48,7 @@ const playTrack = () => {
   loadTrack(tracks[trackIndex]);
   audioNode.play();
   changePlayItemIcon();
-  playBtnNode.style.backgroundImage = 'url(../assets/img/controls/pause.svg)';
+  playBtnNode.style.backgroundImage = 'url(./assets/img/controls/pause.svg)';
   songTitleNode.textContent = `${trackIndex + 1}.${tracks[trackIndex]}`;
   pageBackGroung.src = listOfBg[trackIndex];
   playerBackGround.src = listOfBg[trackIndex];
@@ -98,7 +98,7 @@ const pauseTrack = () => {
   playerNode.classList.remove('js-play');
   playerBackGround.classList.remove('scaled');
   audioNode.pause();
-  playBtnNode.style.backgroundImage = 'url(../assets/img/controls/play.svg)';
+  playBtnNode.style.backgroundImage = 'url(./assets/img/controls/play.svg)';
   playItemNode[trackIndex].classList.remove('paused-item');
 };
 // включение и остановка воспроизведения
