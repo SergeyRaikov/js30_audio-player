@@ -99,11 +99,12 @@
     height: 3rem;
     background-image: url(../assets/img/controls/volume-on.svg);
     background-size: contain;
+    cursor: pointer;
 }
 
 .volume-muted {
     background-image: url(../assets/img/controls/volume-off.svg);
-    cursor: pointer;
+    
 }
 
 .volume {
