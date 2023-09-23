@@ -40,7 +40,7 @@ const listOfBg = [
 let trackIndex = 0;
 
 const loadTrack = (track) => {
-  audioNode.src = `assets/audio/${track}.mp3`;
+  audioNode.src = `./assets/audio/${track}.mp3`;
 };
 
 const playTrack = () => {
