@@ -343,8 +343,6 @@ h6 {
   display: inline-block;
   width: 3rem;
   height: 3rem;
-  border-radius: 100%;
-  border: 3px solid #fff;
   background-image: url(../assets/img/controls/download.svg);
   background-position: center;
   background-repeat: no-repeat;

@@ -60,6 +60,7 @@ audioNode.addEventListener('ended', switchNextTrack);
 // смена проигрывания (паузы) в плейлисте
 const playOrPausePlayListItems = () => {
   playListNode.addEventListener('click', (event) => {
+    console.log(event.target)
     const isPlayingItem = event.target.classList.contains('paused-item');
     const currentItem = event.target.textContent;
     const selectedTrackIndex = tracks.indexOf(currentItem);
